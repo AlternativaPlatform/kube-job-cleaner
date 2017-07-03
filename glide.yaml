@@ -1,0 +1,6 @@
+package: stash.alternativaplatform.com/kube-job-cleaner
+import:
+  - package: k8s.io/client-go
+    version: v1.5.1
+    subpackages:
+      - 1.5
